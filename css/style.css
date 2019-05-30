@@ -1,0 +1,223 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+.container-fluid {
+  padding: auto 8px;
+}
+h3 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.minibar {
+  background-color: #efefef;
+}
+.minibar p {
+  margin: 10px 0;
+}
+.minibar span {
+  margin: 0 5px;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #777777;
+}
+.navbar-brand {
+  font-size: 36px;
+}
+.navbar-brand span {
+  color: #03A9F4;
+}
+a.nav-link {
+  color: #212121;
+  margin: auto 5px;
+}
+a.nav-link.active {
+  background-color: #03A9F4;
+  border-radius: 32px;
+	color: white!important;
+}
+.btn {
+  border-radius: 32px;
+  border: none;
+}
+.consult-btn {
+  background-color: #4CAF50;
+	color: white;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.consult-btn:hover {
+  background-color: white;
+  color: #4CAF50;
+}
+#carousel-1 .carousel-item {
+	height: 70vh;
+}
+.carousel-item img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-height: 50px;
+}
+.carousel-caption {
+	position: absolute;
+	top: 10%;
+}
+.carousel-caption h2 {
+  font-weight: bold;
+  font-size: 48px;
+  position: absolute;
+  top: 30%;
+}
+.carousel-caption p.lead {
+  position: absolute;
+  top: 70%;
+  font-weight: normal;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 5;
+}
+.carousel-control-prev, .carousel-control-next {
+  width: 5%;
+  z-index: 10;
+}
+/* services */
+.service {
+  padding: 50px 40px;
+  color: white;
+}
+#service-save {
+  background-color: #2196F3;
+}
+#service-tax {
+  background-color: #03A9F4;
+}
+#service-fee {
+  background-color: #4CAF50;
+}
+.service .btn {
+  background-color: white;
+  margin: 20px auto;
+}
+.service-date {
+  font-size: 12px;
+  color: #efefef;
+}
+.service-desc {
+  color: #efefef;
+}
+/* about */
+.about-img {
+  margin-bottom: -20px;
+}
+.w-75 {
+  margin: 20px 0 20px auto;
+}
+/* testimonials */
+.testimonials {
+  background-color: #2196F3;
+  color: white;
+  padding: 50px 0;
+}
+.testimonials .card {
+  color: #777777;
+}
+.testimonials .card-header {
+  background-color: white;
+  border: none;
+}
+.testimonials .role {
+  color: #efefef;
+  font-size: 14px;
+}
+/* philosophy */
+.philosophy .btn {
+  background-color: #4CAF50;
+  color: white;
+}
+.philosophy h3 {
+  margin: 30px 0;
+}
+/* sign up and contact */
+.sign-up {
+  background-color: #4CAF50;
+  color: white;
+  padding: 50px 0;
+  margin-bottom: -20px;
+}
+.sign-up input {
+  margin: 20px 0;
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: #4CAF50;
+  color: #efefef;
+}
+.sign-up input:focus {
+  border-bottom: 1px solid white;
+  background-color: #4CAF50;
+  color: #efefef;
+  outline: none;
+  box-shadow: none;
+}
+.sign-up input::placeholder {
+  color: #efefef;
+}
+.sign-up .btn {
+  background-color: white;
+  color: #212121;
+}
+.contact {
+  background-color: #efefef;
+  padding: 50px 30px;
+  min-height: 320px;
+}
+.contact p {
+  margin-bottom: 20px 0;
+}
+.contact p span {
+  color: #777777;
+}
+/* footer */
+.site-footer {
+  background-color: #424242;
+  color: #adadad;
+  padding: 100px 0;
+}
+.site-footer h4 {
+  color: #efefef;
+}
+.site-footer a {
+  color: #adadad;
+}
+@media screen and (max-width: 767px) {
+  .nav-link {
+    text-align: center;
+    margin: 10px;
+  }
+  #carousel-1 .carousel-item {
+    height: 50vh;
+  }
+  .carousel img {
+    height: 100%;
+  }
+  .carousel-caption h2 {
+    font-size: 28px;
+    top: 1%;
+  }
+  .carousel-caption p.lead {
+    font-size: 18px;
+    top: 50%;
+    margin: 0;
+  }
+  .about .btn {
+    margin-bottom: 50px;
+  }
+  .philosophy .btn {
+    margin-bottom: 50px;
+  }
+}
