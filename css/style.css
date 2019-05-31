@@ -134,6 +134,11 @@ a.nav-link.active {
   color: #efefef;
   font-size: 14px;
 }
+.testimonials img {
+  width:100px;
+  height:100px;
+  border-radius:50%
+}
 /* philosophy */
 .philosophy .btn {
   background-color: #4CAF50;
